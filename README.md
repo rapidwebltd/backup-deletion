@@ -16,9 +16,9 @@ The following are examples of file names will be matched by this script.
 * `style_25thJune2015.css`
 * `style_31st_May_2013.css`
 
-### Filetypes
+### File types
 
-This script currently deal with `.php`, `.css`, `.htm` and `.html` files.
+This script currently deals with `.php`, `.css`, `.htm` and `.html` files.
 
 ##Download
 
