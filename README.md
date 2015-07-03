@@ -36,11 +36,3 @@ If you receive a `Permission denied` error, you need to make the script executab
 
 #License
 MIT
-
-##Todo: 
-
-* Initial JSHint support (In Progress)
-* OSX support
-* Redhat/Fedora support
-* Further error catching
-
