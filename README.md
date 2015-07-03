@@ -6,15 +6,15 @@ This shell script is designed to identify any backup files present in a git repo
 
 Backup files are identified based on their file names ending with an underscore `_` following by a string that represents a date.
 
-The following file names will be matched by this script.
+The following are examples of file names will be matched by this script.
 
-* terms_3rdOct2011.php
-* test_8th_June_2011.php
-* logout_5thOct2011.php
-* index_pre23rdOct2012.php
-* test_260215.php
-* style_25thJune2015.css
-* style_31st_May_2013.css
+* `terms_3rdOct2011.php`
+* `test_8th_June_2011.php`
+* `logout_5thOct2011.php`
+* `index_pre23rdOct2012.php`
+* `test_260215.php`
+* `style_25thJune2015.css`
+* `style_31st_May_2013.css`
 
 ### Filetypes
 
