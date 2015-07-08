@@ -14,10 +14,11 @@ The following are examples of file names will be matched by this script.
 * `test_260215.php`
 * `style_25thJune2015.css`
 * `style_31st_May_2013.css`
+* `script_20th_May_2015.js`
 
 ### File types
 
-This script currently deals with `.php`, `.css`, `.htm` and `.html` files.
+This script currently deals with `.php`, `.css`, `.js`, `.htm` and `.html` files.
 
 ##Download
 
