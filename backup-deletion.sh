@@ -38,11 +38,11 @@ fi
 
 echo "--------------";
 
-find . -iname '*_[0-9]*[0-9][0-9].php' -o -iname '*_[0-9]*[0-9][0-9].css' -o -iname '*_[0-9]*[0-9][0-9].htm?' | sort
+find . -iname '*_[0-9]*[0-9][0-9].php' -o -iname '*_[0-9]*[0-9][0-9].css' -o -iname '*_[0-9]*[0-9][0-9].htm?' -o -iname '*_[0-9]*[0-9][0-9].js' | sort
 
 echo "--------------";
 
-if [ ! `find . -iname '*_[0-9]*[0-9][0-9].php' -o -iname '*_[0-9]*[0-9][0-9].css' -o -iname '*_[0-9]*[0-9][0-9].htm?'` ]; then
+if [ ! `find . -iname '*_[0-9]*[0-9][0-9].php' -o -iname '*_[0-9]*[0-9][0-9].css' -o -iname '*_[0-9]*[0-9][0-9].htm?' -o -iname '*_[0-9]*[0-9][0-9].js'` ]; then
 
     echo "No files were identified as backups based on their file names."
     exit
@@ -53,7 +53,7 @@ echo "The files above have been identified as backups based on their file names.
 
 if ask "Flag them for removal from your git repo (git rm)?" Y; then
 
-    git rm `find . -iname '*_[0-9]*[0-9][0-9].php' -o -iname '*_[0-9]*[0-9][0-9].css' -o -iname '*_[0-9]*[0-9][0-9].htm?' | sort`
+    git rm `find . -iname '*_[0-9]*[0-9][0-9].php' -o -iname '*_[0-9]*[0-9][0-9].css' -o -iname '*_[0-9]*[0-9][0-9].htm?' -o -iname '*_[0-9]*[0-9][0-9].js' | sort`
 
     if ask "Commit these deletions?" Y; then
     
