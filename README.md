@@ -24,7 +24,7 @@ This script currently deals with `.php`, `.css`, `.js`, `.htm` and `.html` files
 
 To get the backup deletion script, `cd` to your project's directory and run the following `wget` command.
 
-`wget https://raw.githubusercontent.com/rapidwebltd/backup-deletion/master/backup-deletion.sh`
+`wget -N https://raw.githubusercontent.com/rapidwebltd/backup-deletion/master/backup-deletion.sh`
 
 Please note that you should download the script into a valid git repository. If you do not, it will refuse to run due to its destructive nature.
 
